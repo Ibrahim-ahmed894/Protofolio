@@ -1,0 +1,267 @@
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+
+section {
+    padding: 100px 200px;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('https://i.pinimg.com/originals/f1/f4/14/f1f4146ef73921608770ed0cd1b82888.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-btn {
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hovet {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700px;
+    margin: 10px;
+}
+
+@media (max-width: 1023px) {
+    header {
+        padding: 12px 20px;
+    }
+    .navigation a {
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    section {
+        padding: 80px 20px;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 641px) {
+    body {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 0.8em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        font-size: 10px;
+    }
+}
+.projects{
+    background-color: black;
+
+}
+.projects .content{
+    margin-top:  30px ;
+
+}
+.project-card{
+    background-color: white;
+    border: 1px solid white ;
+    min-height: 14em;
+    width: 23em ;
+    overflow: hidden;
+    border-radius: 10px ;
+    margin:  20px;
+    transition: 0.7s ease ;
+    color: black;
+
+}
+.project-card:hover{
+    transform:  scale(1.1) ;
+
+}
+.project-card:hover .project-image{
+    opacity: 0.9 ;
+
+}
+.project-image img {
+    width: 100% ;
+
+}
+.project-info{
+    font-size:  0.8em ;
+    padding: 1em ;
+
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.more-details{
+    text-align: none;
+    color: #0a49f6;
+
+}
+.more-details:hover{
+    color: #601cfc;
+}
+
+
+
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  .contact-form {
+    margin-top: 20px;
+  }
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  .contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+#grad{
+    background-image: linear-gradient(blue,white) ;
+}
+
